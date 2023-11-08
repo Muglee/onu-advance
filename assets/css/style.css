@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;800&family=Roboto&display=swap');
+/* common code start  */
+.g-color{
+    color: #87d37c;
+}
+/* navbar start  */
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #87d37c;
+}
+.fixed-top{
+    background: rgba(0,0,0,0.5);
+    transition: .2s;
+}
+/* navbar end  */
+/* header start  */
+header{
+    background: radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/onu-advance.jpg);
+    background-size: cover;
+}
+.carousel-item span{
+    color: #87d37c;
+}
+.carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    opacity: 1;
+    background: #fff;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.carousel-indicators .active {
+    background: #87d37c;
+}
+/* header end  */
+/* about us start  */
+.about-content-title{
+    
+}
+/* about us end  */
+/* service section start  */
+.service{
+    background: #e1e1e1;
+}
+.service-content{
+    position: relative;
+}
+.service-content-inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.service-content-inner ul{
+    margin-top: 30%;
+}
+.service-content-inner ul li{
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.service-content-inner ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    display: block;
+}
+/* service section end  */
+/* portfolio section start  */
+.portfolio .nav-pills .nav-link {
+    border-radius: 0px;
+    background: black;
+    color: #fff;
+    margin: 0px 3px 6px 3px;
+}
+.portfolio .nav-pills .nav-link.active,.nav-pills .nav-link:hover, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #87d37c;
+}
+.portfolio .tab-pane a {
+    display: block;
+    position: relative;
+    color: #fff;
+}
+.portfolio .tab-pane .tab-section-item{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 89%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.portfolio .tab-pane .tab-section-item h2{
+    margin-top: 30%;
+}
+/* portfolio section end  */
+/* counter section start  */
+.counter-section{
+    background: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/banner.png);
+    background-image: cover;
+}
+.counter-content{
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* counter section end  */
+/* contact-us start */
+.contact-us{
+    background: #fdfafa;
+}
+/* contact-us end */
+/* contact form start  */
+.contact-form{
+    background: #f5f5f5;
+}
+/* contact form end  */
+/* contact form start  */
+.google-map iframe{
+    width: 100%;
+    min-height: 350px;
+}
+/* contact form end  */
+/* footer start  */
+.last-item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.last-item ul li a{
+    color: #fff;
+    margin: 0px 5px;
+}
+/* footer end  */
+/* common code end  */
+    
+    
+
+    
